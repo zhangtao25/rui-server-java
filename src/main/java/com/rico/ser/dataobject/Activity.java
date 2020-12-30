@@ -14,9 +14,9 @@ public class Activity {
 
     @Id
     @Column(name = "Id")
-    private String id;
+    private String did;
     @Column(name = "Name")
-    private String name;
-//    @Column(name = "StartTime")
-//    private String startTime;
+    private String sname;
+    @Column(name = "numberlimit")
+    private int NumberLimit;
 }
