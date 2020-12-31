@@ -13,10 +13,15 @@ import javax.persistence.Id;
 public class Activity {
 
     @Id
-    @Column(name = "Id")
-    private String did;
-    @Column(name = "Name")
-    private String sname;
+    private String id;
+    private String name;
+    private int cost;
     @Column(name = "numberlimit")
-    private int NumberLimit;
+    private int numberLimit;
+    private int creater;
+    @Column(name = "starttime")
+    private String startTime;
+    @Column(name = "endtime")
+    private String endTime;
+    private String content;
 }
